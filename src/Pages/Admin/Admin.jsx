@@ -8,8 +8,9 @@ import { Outlet } from 'react-router-dom'
 const Admin = () => {
   return (
     <div className='main'>
-      <div className='Admin'>
-        <Navbar/>
+      <Navbar/>
+      <div id='Admin' >
+        
         <Sidebar />
     
      <div className='outlet'>

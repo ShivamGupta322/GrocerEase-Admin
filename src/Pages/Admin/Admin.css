@@ -1,14 +1,10 @@
-.admin{
+#Admin{
     display: flex;
     height: 100vh;
 }
 
-/* .outlet{
-    display: flex;
-} */
 
 
-.main{
-    display: flex;
-}
+
+
 
