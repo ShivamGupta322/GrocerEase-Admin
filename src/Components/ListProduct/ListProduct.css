@@ -9,6 +9,10 @@
     margin: 30px;
     border-radius: 6px;
     background: white;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right,red,orange);
+    border-image-slice: 1;
 }
 
 .listproduct-format-main{

@@ -48,6 +48,7 @@
     border-radius: 10px;
     object-fit: contain;
     margin: 10px 0px;
+    cursor: pointer;
 }
 
 .addproduct-btn{
@@ -60,4 +61,6 @@
     color: white;
     font-size: 16px;
     font-weight: 500;
+    cursor: pointer;
 }
+
