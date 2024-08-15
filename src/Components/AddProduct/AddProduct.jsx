@@ -10,6 +10,7 @@ const AddProduct = () => {
     category:"Snacks",
     new_price:"",
     old_price:"",
+    description:"",
   })
   const imageHandler =(e)=>{
       setImage(e.target.files[0]);
@@ -80,6 +81,10 @@ const AddProduct = () => {
             <option value="HouseHolds">HouseHolds</option>
 
           </select>
+        </div>
+        <div className='addproduct-itemfield'>
+          <p>Product Description</p>
+          <textarea className='text-area' value={productDetails.description} onChange={changHandler} name='description' placeholder='Type Here' />
         </div>
         <div className="addproduct-itemfield">
           <label htmlFor="file-input">
